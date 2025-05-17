@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio | Pendidikan</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Styling for Education Section */
+    #education {
+      padding-top: 100px; /* Ensure space for navbar */
+      padding-bottom: 50px;
+    }
+
+    /* Title Styling */
+    #education h2 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #333;
+    }
+
+    /* List Styling */
+    .list-group-item {
+      font-size: 1.1rem;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .list-group-item:hover {
+      background-color: #e9ecef;
+    }
+
+    .list-group-item i {
+      margin-right: 10px;
+    }
+
+    /* Navbar modification for Pendidikan */
+    .navbar-nav .nav-item {
+      margin-right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <i class="bi bi-code-slash me-2"></i> Portofolio
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <i class="bi bi-house-door me-2"></i> Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">
+            <i class="bi bi-person me-2"></i> About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skill.html">
+            <i class="bi bi-laptop me-2"></i> Skill
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">
+            <i class="bi bi-envelope me-2"></i> Kontak
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Education Section -->
+<section id="education" class="py-5">
+  <div class="container" data-aos="zoom-in">
+    <div class="text-center mb-4">
+      <i class="bi bi-mortarboard-fill display-1 mb-3"></i>
+      <h2>Pendidikan</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="list-group">
+          <a href="https://maps.google.com/?q=SD+Contoh+1" target="_blank" class="list-group-item list-group-item-action">
+            <i class="bi bi-flag-fill"></i> SD Contoh 1 - Pendidikan Dasar (2008 - 2014)
+          </a>
+          <a href="https://maps.google.com/?q=SMP+Contoh" target="_blank" class="list-group-item list-group-item-action">
+            <i class="bi bi-building"></i> SMP Contoh - Pendidikan Menengah (2014 - 2017)
+          </a>
+          <a href="https://maps.google.com/?q=SMK+Negeri+1+Contoh" target="_blank" class="list-group-item list-group-item-action">
+            <i class="bi bi-mortarboard"></i> SMK Negeri 1 Contoh - RPL (2018 - 2021)
+          </a>
+          <a href="https://maps.google.com/?q=Universitas+Contoh" target="_blank" class="list-group-item list-group-item-action">
+            <i class="bi bi-university"></i> Universitas Contoh - Teknik Informatika (2021 - Sekarang)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white py-3">
+  <p>© 2025 Bagus Ari Prasaja. All rights reserved.</p>
+</footer>
+
+<!-- JS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

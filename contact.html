@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio | Kontak</title>
+
+  <!-- Bootstrap 5 & Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+  body {
+    background-color: #f8f9fa;
+  }
+
+  .contact-card {
+    max-width: 600px;
+    background: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+
+  .social-icons {
+    margin-top: 30px;
+  }
+
+  .social-item {
+    margin: 15px;
+    text-align: center;
+  }
+
+  .social-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .social-item a:hover {
+    text-decoration: none;
+  }
+  .navbar {
+      background-color: #0369b6 !important;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: #ffffff !important;
+    }
+
+  .icon-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+  }
+
+  .icon-circle i {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .icon-circle:hover {
+    transform: scale(1.1);
+  }
+
+  .ig { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+  .wa { background-color: #25D366; }
+  .tt { background-color: #000000; }
+
+  .username {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #343a40;
+    font-size: 0.95rem;
+  }
+</style>
+
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark custom-blue shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <i class="bi bi-code-slash me-2"></i> Portofolio bagz
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-door me-2"></i> Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html"><i class="bi bi-person me-2"></i> About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="skill.html"><i class="bi bi-laptop me-2"></i> Skill</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html"><i class="bi bi-envelope me-2"></i> Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 mt-5">
+  <div class="container text-center" data-aos="fade-up">
+    <h2 class="mb-4">Hubungi Saya</h2>
+    <div class="card shadow contact-card mx-auto p-4">
+      <p><i class="bi bi-envelope-fill text-primary me-2"></i> bagusari147@gmail.com</p>
+      <p><i class="bi bi-phone-fill text-success me-2"></i> 087878032204</p>
+      <p><i class="bi bi-geo-alt-fill text-danger me-2"></i> Kota Banjar, Indonesia</p>
+    </div>
+
+    <!-- Sosial Media -->
+    <div class="d-flex justify-content-center flex-wrap social-icons">
+      <div class="social-item">
+        <a href="https://www.instagram.com/baa_guzzz?igsh=MWc0Ymw3eWg2MmFseA==" target="_blank">
+          <div class="icon-circle ig">
+            <i class="bi bi-instagram"></i>
+          </div>
+          <div class="username">@baa_guzz</div>
+        </a>
+      </div>
+      <div class="social-item">
+        <a href="https://wa.me/qr/ZMANOPFDYZWJB1" target="_blank">
+          <div class="icon-circle wa">
+            <i class="bi bi-whatsapp"></i>
+          </div>
+          <div class="username">+6287878032204</div>
+        </a>
+      </div>
+      <div class="social-item">
+        <a href="https://www.tiktok.com/@iam_good1?_t=ZS-8wQYphwP3qs&_r=1" target="_blank">
+          <div class="icon-circle tt">
+            <i class="bi bi-tiktok"></i>
+          </div>
+          <div class="username">@bagus_good</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center text-white py-3" style="background-color: #0369b6;">
+  <p>© 2025 Bagus Ari Prasaja. All rights reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
